@@ -1,0 +1,60 @@
+textarea {
+    resize: none;
+}
+
+pre {
+    margin: 0 10px 0 10px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    height: 85vh;
+    min-height: 500px;
+
+}
+
+form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+button, input[type=text] {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+}
+
+.response {
+    min-width: 65%;
+}
+
+.response-box {
+    height: 96%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        max-width: 100%;
+    }
+}  
